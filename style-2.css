@@ -1,0 +1,30 @@
+.hidden {
+  display: none;
+}
+.tags {
+  margin: 5px 0;
+}
+.tag {
+  display: inline-block;
+  margin: 2px;
+  padding: 5px 10px;
+  background-color: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.tag.selected {
+  background-color: #007bff;
+  color: white;
+}
+.clear-btn {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.clear-btn:hover {
+  background-color: #cc0000;
+}

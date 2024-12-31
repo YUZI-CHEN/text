@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style-2.css">
+</head>
+<body>
+  <h1>標籤篩選功能</h1>
+    
+  <div class="tags">
+      <span class="tag" onclick="toggleTag(this)" data-tag="news">新聞</span>
+      <span class="tag" onclick="toggleTag(this)" data-tag="blog">部落格</span>
+      <span class="tag" onclick="toggleTag(this)" data-tag="tutorial">教學</span>
+      <button class="clear-btn" onclick="clearTags()">清除標籤</button>
+  </div>
+
+  <p id="result"></p>
+
+  <div id="content">
+      <div class="item" data-tags="news">這是一篇新聞文章。</div>
+      <div class="item" data-tags="blog">這是一篇部落格文章。</div>
+      <div class="item" data-tags="tutorial">這是一篇教學文章。</div>
+      <div class="item" data-tags="news blog">這是一篇同時屬於新聞和部落格的文章。</div>
+      <div class="item" data-tags="tutorial">另一篇教學文章。</div>
+  </div>
+
+
+
+
+
+  <script src="./text-2.js"></script>
+</body>
+</html>
